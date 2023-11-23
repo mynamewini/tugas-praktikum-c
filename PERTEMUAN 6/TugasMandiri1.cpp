@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    // Mencetak deret angka 10 hingga 100 dengan selisih 10
+    for (int i = 10; i <= 100; i += 10) {
+        printf("%d ", i);
+    }
+
+    // Mencetak baris baru setelah mencetak deret angka
+    printf("\n");
+
+    return 0;
+}
