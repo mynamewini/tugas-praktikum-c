@@ -1,0 +1,25 @@
+//PROGRAM OTOMASI SEBUAH MESIN CUCI SATU TABUNG
+
+Deklarasi 
+1. Membuat program dalam bahasa C untuk otomatisasi mesin cuci dengan sistem fuzzy.
+2. Program tersebut harus mendeteksi tingkat kekeruhan air menggunakan sensor turbidimeter dan mengatur operasi motor listrik sesuai dengan tingkat kekeruhan tersebut.
+3. Operasi mesin cuci melibatkan motor utama, motor untuk membuka dan menutup klep pengisian air, motor untuk membuka dan menutup klep pembuangan air kotor, serta sensor turbidimeter.
+4. Setiap nilai level kekeruhan air disimpan dalam array, dan program harus memutarkan motor dengan kecepatan dan waktu mencuci yang berbeda berdasarkan tingkat kekeruhan.
+5. Ada langkah-langkah yang harus dilakukan pada setiap pertengahan waktu pencucian, termasuk jeda untuk membuang air kotor dan mengeringkan cucian.
+
+
+Deskriptif
+1. Mulai
+2. Hidupkan mesin cuci
+3. Isi air (Mengisi air dalam mesin cuci selama 2 menit)
+4. Deteksi tingkat kekeruhan air
+5. Tentukan kecepatan motor utama berdasarkan tingkat kekeruhan yang terdeteksi
+6. Putar motor utama dengan kecepatan yang ditentukan (Mencuci selama 60 menit)
+7. Jeda tengah mencuci (Jeda selama 2 menit)
+8. Buang air kotor (Membuang air kotor selama 2 menit)
+9. Putar motor untuk mengeringkan cucian (Mengeringkan selama 3 menit)
+10. Isi air untuk proses rinsing (Mengisi air untuk rinsing selama 2 menit)
+11. Lanjutkan mencuci dengan motor utama (Mencuci selama 60 menit)
+12. Buang air rinsing (Membuang air rinsing selama 2 menit)
+13. Putar motor untuk mengeringkan cucian setelah rinsing (Mengeringkan selama 3 menit)
+14. Selesai

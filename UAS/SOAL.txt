@@ -1,0 +1,17 @@
+Buatlah sebuah program sederhana menggunakan bahasa pemograman C untuk otomasi sebuah mesin cuci satu tabung yang dilengkapi dengan teknologi system fuzzy yaitu system pada mesin cuci yang dapat mencuci secara otomatis dengan mendeteksi level kekeruhan air (NTU) yaitu pada level 6, 8, 12, 18, 24, 30, 36, 42, 49 yang disimpan pada sebuah Array berdimensi satu. Pada mesin cuci tersebut terdapat 3 motor listrik yaitu: satu motor listrik utama, satu motor listrik untuk membuka dan menutup klep pengisian air, satu motor listrik untuk membuka dan menutup klep pembuangan air kotor serta satu sensor turbidimeter untuk mendeteksi kekeruhan air.
+
+Dimana setiap nilai level kekeruhan air pada Array tersebut akan memutarkan motor listrik dengan kecepatan serta waktu mencuci yang berbeda, pada setiap pertengahan waktu pencucian ada jeda selama 2 menit untuk membuang air kotor yang akan mengaktifkan motor pembuka klep pembuangan air dan jeda selama 3 menit untuk mengeringkan cucian dengan level rata-rata kekeruhan air sesuai level keruhan air, kecepatan motor 1000 rpm dan waktu mencuci 60 menit
+
+Cara Kerja Mesin Cuci tersebut sebagai berikut:
+
+1. Tombol Start ditekan maka motor listrik pembuka klep pengisian air aktif selama 2 menit sampai air penuh.
+2. Sensor turbidimeter aktif hanya satu kali untuk mendeteksi level kekeruhan air 
+3. Motor listrik utama berputar sesuai level kekeruhan air = level rata-rata kekeruhan air.
+4. Motor listrik utama berhenti pada setiap pertengahan waktu.
+
+5. Motor listrik pembuka klep pembuangan air kotor aktif selama 2 menit sampai air kotor habis. 
+6. Motor listrik utama berputar dengan kecepatan 2000 rpm untuk mengeringkan cucian selama 3 menit. 
+7. Motor listrik pembuka klep pengisian air aktif selama 2 menit sampai air penuh.
+8. Motor listrik utama berputar selama sisa waktu mencuci
+9. Motor listrik pembuka klep pembuangan air kotor aktif selama 2 menit sampai air habis.
+10. Motor listrik utama berputar dengan kecepatan 2000 rpm untuk mengeringkan cucian selama 3 menit
